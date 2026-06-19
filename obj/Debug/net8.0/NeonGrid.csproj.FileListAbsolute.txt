@@ -1,0 +1,14 @@
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\NeonGrid.GeneratedMSBuildEditorConfig.editorconfig
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\NeonGrid.AssemblyInfoInputs.cache
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\NeonGrid.AssemblyInfo.cs
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\NeonGrid.csproj.CoreCompileInputs.cache
+Y:\projects-2026\neon-grid\bin\Debug\net8.0\neongrid.exe
+Y:\projects-2026\neon-grid\bin\Debug\net8.0\neongrid.deps.json
+Y:\projects-2026\neon-grid\bin\Debug\net8.0\neongrid.runtimeconfig.json
+Y:\projects-2026\neon-grid\bin\Debug\net8.0\neongrid.dll
+Y:\projects-2026\neon-grid\bin\Debug\net8.0\neongrid.pdb
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\neongrid.dll
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\refint\neongrid.dll
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\neongrid.pdb
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\NeonGrid.genruntimeconfig.cache
+Y:\projects-2026\neon-grid\obj\Debug\net8.0\ref\neongrid.dll
