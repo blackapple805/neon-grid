@@ -52,3 +52,5 @@ Ansi.cs          # VT100/ANSI escape-code helpers (true color, cursor, alt scree
 Palette.cs       # cyberpunk themes + head->tail RGB interpolation
 
 GridRenderer.cs  # falling-stream sim + double-buffered diff frame composer
+
+<!-- guardrail test 2026-06-24T21:10:18 -->
