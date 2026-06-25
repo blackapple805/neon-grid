@@ -1,0 +1,28 @@
+﻿# Makefile for neon-life on Windows (w64devkit / MinGW gcc).
+#
+# Usage from a w64devkit terminal, inside this c\ folder:
+#   make            # build neon-life.exe
+#   make run        # build and run
+#   make clean      # remove build output
+#
+# The simulation core (life.c, palette.c) is portable; only main.c is the
+# Windows console port. No POSIX, no WSL needed.
+
+CC      := gcc
+CFLAGS  := -std=c11 -Wall -Wextra -Wpedantic -O2
+TARGET  := neon-life.exe
+SRCS    := src/main.c src/life.c src/palette.c
+
+.PHONY: all run clean
+
+all: $(TARGET)
+
+$(TARGET): $(SRCS)
+	$(CC) $(CFLAGS) $(SRCS) -o $(TARGET)
+
+run: all
+	./$(TARGET)
+
+clean:
+	del /Q $(TARGET) 2>nul || rm -f $(TARGET)
+
